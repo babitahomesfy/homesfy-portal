@@ -973,4 +973,7 @@ header nav .nav-btn ul li:last-child {
   .featured-projects-card-mob {
     position: relative;
   }
+  .featured-projects-card-mob .featured-projects-img-container {
+    position: relative;
+  }
 }/*# sourceMappingURL=home.css.map */
