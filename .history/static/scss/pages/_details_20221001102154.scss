@@ -1,0 +1,15 @@
+.detail-container{
+	display: flex;
+	.project-specification{
+		.property-name{
+			display: flex;
+			p{
+				text-transform: uppercase;
+				color: #151E2D;
+				opacity: 0.72;
+				font-weight: 800;
+				font-size: 30px;
+			}
+		}
+	}
+}

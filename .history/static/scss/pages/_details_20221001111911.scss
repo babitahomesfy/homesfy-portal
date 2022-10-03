@@ -1,0 +1,79 @@
+.detail-container{
+	display: flex;
+	.project-specification{
+		.property-name{
+			display: flex;
+			justify-content: space-between;
+			p{
+				text-transform: uppercase;
+				color: #151E2D;
+				opacity: 0.72;
+				font-weight: 800;
+				font-size: 30px;
+			}
+		}
+		.property-address{
+			display: flex;
+			margin-bottom: 40px;
+			img, p, a{
+				padding: 0 20px 0 0;
+			}
+		}
+		.apartment-details{
+			display: flex;
+			.apartment, .carpet-area, .builder-price, .rera{
+				p{
+					font-weight: 600;
+				}
+			}
+		}
+	}
+	.navbar{
+		margin-bottom: 40px;
+		ul{
+			display: flex;
+			justify-content: space-between;
+			li{
+				font-weight: 600;
+				opacity: 0.75;
+			}
+		}
+	}
+	.project-highlight-section{
+		.project-highlights{
+			ul{
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 40px;
+				li{
+					p{
+						&:first-child{
+							font-weight: 600;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.price-floor-plan{
+		.tab-btn{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 20px;
+			button{
+				padding: 15px;
+			}
+		}
+		.floor-plan{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border: 1px solid #ccc;
+		}
+	}
+}
+
+.heading-content{
+	margin-bottom: 20px;
+}

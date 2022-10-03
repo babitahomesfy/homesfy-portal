@@ -1,0 +1,41 @@
+<div class="common-form">
+					<div class="form-heading">Connect with the right person below -</div>
+					<div class="form-content">
+						<div class="form-group">
+							<div class="name-cont">
+								<input class="form-control username" id="dropEnquiry_Name" placeholder="Enter Your Name"
+									title="Name cannot be digit or special character" pattern="[a-zA-Z ]{4,35}"
+									required="">
+								<label for="">Name</label>
+							</div>
+							<div class="contact-group">
+								<div class="country-code">
+									<select name="cars" id="dropEnquiry_CountryCode">
+										<option disabled="disabled" value="">Country Code</option>
+										<option data-countrycode="IN" value="+91" selected="">(+91)</option>
+										<option data-countrycode="AU" value="+61">(+61)</option>
+										<option data-countrycode="BH" value="+973">(+973)</option>
+									</select>
+									<label for="">Country</label>
+								</div>
+								<div class="m-number-cont">
+									<input class="form-control phone-number" id="dropEnquiry_Number"
+										placeholder="Phone Number" type="tel" pattern="[0-9]{10}$"
+										title="mobile number must be numeric &amp; of 10 digits." maxlength="10"
+										required="">
+								</div>
+							</div>
+							<div class="notification">
+								<div><input type="checkbox" class="checkbox1" id="checkbox1" name="" value=""></div>
+								<p>You will recieve notifications via SMS, Whatsapp, Email.
+									You can change your preference later.</p>
+							</div>
+							<div class="home-lone">
+								<div><input type="checkbox" class="checkbox2" id="checkbox2" name="" value=""></div>
+								<p>Yes, I need a home loan </p>
+							</div>
+							<button class="submit-btn">Submit</button>
+
+						</div>
+					</div>
+				</div>

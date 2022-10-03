@@ -1,0 +1,61 @@
+.footer{
+	display: flex;
+	background: #151E2D;
+	color: #fff;
+	padding: 50px;
+	font-size: 14px;
+	.links{
+		.terms-privacy{
+			margin-bottom: 40px;
+			a{
+				text-decoration: none;
+				color: #fff;
+				padding-right: 10px;
+				&:first-child{
+					font-weight: 600;
+				}
+			}
+		}
+	}
+
+	.developers-list, .mumbai-banglore-address{
+		display: flex;
+		ul{
+			line-height: 20px;
+			font-weight: 600;
+			font-size: 12px;
+		}
+	}
+
+	.developer,.keep-in-touch, .company-name{
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+
+	.keep-in-touch-section{
+		.social-btn{
+			margin-bottom: 20px;
+			button{
+				background: #696666b0;
+				border: 1px solid #696666b0;
+				border-radius: 4px;
+				img{
+					padding: 2px;
+					width: 50%;
+				}
+			}
+		}
+	}
+
+	.company-logo{
+		display: flex;
+	}
+}
+
+.company-logo{
+	display: flex;
+    justify-content: space-between;
+	background: #151E2D;
+    border-top: 1px solid #ccc;
+    padding: 50px;
+}

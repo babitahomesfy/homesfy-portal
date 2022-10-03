@@ -1,0 +1,66 @@
+.similar-projects{
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	position: relative;
+	.property-img{
+		width: 100%;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		height: 200px;
+		object-fit: cover;
+	}
+	.property-details{
+		padding: 10px;
+		.builder-details{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			position: absolute;
+			top: 10%;
+			div{
+				display: flex;
+				align-items: center;
+				.builder-logo{
+					background: #fff;
+					padding: 5px;
+					border: 1px solid #fff;
+					border-radius: 47px;
+					img{width: 10px;}
+				}
+				p{
+					font-weight: 700;
+					font-size: 20px;
+					color: #fff;
+				}
+			}
+			button{
+				border-radius: 50px;
+				border: 1px solid #fff;
+				padding: 5px;
+				background: #ccc;
+			}
+		}
+		ul{
+			li{
+				margin-bottom: 10px;
+				&:nth-child(1){
+					div{
+						display: flex;
+					align-items: center;
+
+					img{margin-right: 10px;}
+					}
+				}
+				&:nth-child(2){
+					display: flex;
+					justify-content: space-between;
+				}
+				&:nth-child(3){
+					display: flex;
+				}
+
+			}
+		}
+
+	}
+}

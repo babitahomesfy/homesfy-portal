@@ -1,0 +1,10 @@
+.propery-card-listing{
+	display: flex;
+	align-items: flex-start;
+	.card-img{
+		.prev-next-btn{
+			position: absolute;
+			top: 10px;
+		}
+	}
+}

@@ -1,0 +1,42 @@
+.Banner {
+  background-image: url(/static/img/banner1.png);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  letter-spacing: 0.2px;
+}
+
+ul {
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+}
+
+section {
+  margin-bottom: 110px;
+}
+/*# sourceMappingURL=style.css.map */

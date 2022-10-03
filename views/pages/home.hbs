@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{{> default}}
+	<title>Document</title>
+	<link rel="stylesheet" href="/static/scss/home.css">
+</head>
+
+<body>
+	<main>
+		<header>
+			<nav>
+				{{> logo}}
+				<div class="nav-btn">
+					<ul>
+						{{> icons}}
+						{{> menu}}
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<section class="banner">
+			{{> banner}}
+		</section>
+
+		<section class="popular-localities">
+			<div class="heading-content">
+				<h2 class="heading">Popular</h2>
+				{{> heading}}
+			</div>
+
+			<div class="localities-card-list">
+				<div class="col-md-3 col-xs-6">
+					{{> localities_card}}
+				</div>
+
+				<div class="col-md-3 col-xs-6">
+					{{> localities_card}}
+				</div>
+
+				<div class="col-md-3 col-xs-6">
+					{{> localities_card}}
+				</div>
+
+				<div class="col-md-3 col-xs-6">
+					{{> localities_card}}
+				</div>
+			</div>
+
+			<div class="view-all">
+				<a href="">View All</a>
+			</div>
+		</section>
+
+		<section class="featured-project card">
+			<div class="heading-content">
+				<h2 class="heading">Featured</h2>
+				<p class="sub-heading">Projects</p>
+			</div>
+
+			<div class="featured-projects-card-list">
+				<div class="col-md-4 col-xs-12">
+					{{> featured-projects-card}}
+				</div>
+
+				<div class="col-md-4 col-xs-12">
+					{{> featured-projects-card}}
+				</div>
+
+				<div class="col-md-4 col-xs-12">
+					{{> featured-projects-card}}
+				</div>
+			</div>
+
+			<div class="featured-projects-card-list">
+				<div class="col-md-4 col-xs-12">
+					{{> featured-projects-card-mob}}
+				</div>
+			</div>
+
+			<div class="prev-next-btn">
+				<button class="prev"><img src="/static/img/prev.png" alt=""></button>
+				<button class="next"><img src="/static/img/next.png" alt=""></button>
+			</div>
+		</section>
+
+		<section class="recently-added-project card">
+			<div class="heading-content">
+				<h2 class="heading">Recently</h2>
+				<p class="sub-heading">Added Projects</p>
+			</div>
+			<div class="recently-added-project-card-list">
+				<div class="col-md-4 col-xs-12">
+					{{> recently-added-project-card}}
+				</div>
+
+
+				<div class="col-md-4 col-xs-12">
+					{{> recently-added-project-card}}
+				</div>
+
+				<div class="col-md-4 col-xs-12">
+					{{> recently-added-project-card}}
+				</div>
+			</div>
+		</section>
+
+		<section class="featured-builder card">
+			<div class="heading-content">
+				<h2 class="heading">Featured</h2>
+				<p class="sub-heading">Builder</p>
+			</div>
+			<h2> </h2>
+			<div class="featured-builders-card-list">
+				<div class="col-md-4 col-xs-12">
+					{{> featured-builders-card}}
+				</div>
+
+				<div class="col-md-4 col-xs-12">
+					{{> featured-builders-card}}
+				</div>
+
+
+				<div class="col-md-4 col-xs-12">
+					{{> featured-builders-card}}
+				</div>
+			</div>
+		</section>
+
+		<section class="cta">
+			{{> cta-content}}
+		</section>
+
+		{{> most-popular-search}}
+
+		<div class="deskBlock">
+			{{> footer}}
+		</div>
+
+	</main>
+</body>
+
+</html>

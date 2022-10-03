@@ -1,0 +1,99 @@
+main{
+	section{
+		margin-bottom: 40px;
+	}
+}
+
+.banner{
+	background-image: url(/static/img/home/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+	margin-bottom: 0px;
+}
+
+.main-content{
+	display: flex;
+	.form-section{
+		padding: 0 48px 0 0;
+	}
+}
+
+.property-listing-filter-section{
+	margin-bottom: 20px;
+}
+
+.propery-card-listing{
+	margin-bottom: 48px;
+	.card-img{
+		.property-img-section{
+			.property-img{
+				width: 100%;
+			}
+		}
+	}
+	.card-content{
+		.property-apartment{
+			margin-bottom: 0px;
+			div{
+				span{
+					&:first-child{font-size: 16px;}
+					font-size: 14px;}
+			}	
+			.share-btn{
+				background: rgba(201, 250, 209, 0.32);
+				padding: 5px 6px;
+				border-radius: 50px;
+				border: 1px solid #049B5A;
+			}
+		}
+		.price-table{
+			div,p{
+				padding-right: 10px;
+				font-size: 12px;
+			}
+			.price{
+				img{width: 20px; height: 20px;}
+			}
+		}
+		.location-details{
+			font-size: 14px;
+		}
+		.offer{
+			p{font-size:14px; padding: 2px;}
+			span{font-size: 12px;}
+		}
+		.possession{
+			font-size: 14px;
+		}
+		.read-more{
+			font-size: 12px;
+		}
+		.region-experts{
+			img{width: 40px; height:40px;}
+		}
+	}
+}
+
+.property-listing-filter{
+	.commute-search-btn, .clear-filter-btn{
+		display: flex;
+		border: 1px solid rgba(21, 30, 45, 0.32);
+		border-radius: 8px;
+		padding: 5px;
+		input{
+			background: #fff;
+			color: #151E2D;
+			opacity: 0.64;
+			border: none;
+			padding: 0px 5px;
+		}
+	}
+	.clear-filter-btn{
+		border: none;
+		input{color:#049B5A; font-weight: 600;}
+	}
+}
+
+
+

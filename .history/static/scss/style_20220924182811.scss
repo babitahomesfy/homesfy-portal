@@ -1,0 +1,56 @@
+@import "../partials/header";
+@import "../partials/components/logo";
+@import "../partials/components/icons";
+@import "../partials/components/menu";
+@import "../partials/components/banner";
+@import "../partials/components/headings";
+@import "../partials/components/card";
+@import "../partials/components/localities_card";
+@import "../partials/components/prev_next";
+@import "../partials/components/cta";
+@import "../partials/popular_localities";
+@import "../partials/featured_project";
+@import "../partials/recently_added_project";
+@import "../partials/featured_builder";
+@import "../partials/most_popular_search";
+@import "../partials/footer";
+
+html{
+	scroll-behavior: smooth; 
+	} 
+* {
+	margin: 0; 
+	padding: 0;
+} 
+body { 
+	background: #fff;
+	color: #151E2D;
+	letter-spacing: 0.2px;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-family: 'Nunito';
+} 
+ul { 
+	padding: 0; 
+} 
+ul, ol {
+	list-style: none;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	// text-transform: uppercase;
+	color: #000;
+	}
+section {
+	margin-bottom: 110px;
+	padding: 0px 24px;
+	}
+
+
+
+
+
+

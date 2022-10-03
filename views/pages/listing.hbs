@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{{> default}}
+	<title>Document</title>
+	<link rel="stylesheet" href="/static/scss/listing.css">
+</head>
+
+<body>
+	<main>
+		<header>
+			<nav>
+				{{> logo}}
+				{{> search-box}}
+				<div class="nav-btn col-md-4 col-xs-12">
+					<ul>
+						{{> icons}}
+						{{> menu}}
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<section class="banner">
+		</section>
+
+		{{> home-listing}}
+
+		<section class="property-location">
+			<div class="heading-content">
+				<h2 class="heading">21,124</h2>
+				<p class="sub-heading">Property in Thane Mumbai</p>
+			</div>
+			<div class="property-location-para">
+				<span>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
+					the visual form of a document or a typeface without relying on meaningful content.</span>
+				<button class="read-more-btn">Read More +</button>
+			</div>
+		</section>
+
+		<section class="property-listing-filter-section">
+			<div class="property-listing-filter col-md-9 col-xs-12">
+				<div class="commute-search-btn">
+					<img src="/static/img/listing/commute-search.png" alt="">
+					<input type="text" name="" id="" value="Commute Search">
+				</div>
+
+				{{> property-listing-filters}}
+
+				<div class="clear-filter-btn">
+					<img src="/static/img/listing/clear-filter.png" alt="">
+					<input type="button" name="" id="" value="Clear Filter">
+				</div>
+			</div>
+		</section>
+
+		<div class="main-content">
+			<div class="col-8">
+				<section>
+					{{> property-card-listing}}
+					{{> property-card-listing}}
+					{{> property-card-listing}}
+					{{> property-card-listing}}
+				</section>
+
+
+			</div>
+
+			<section class="form-section col-md-4 col-xs-12">
+				{{> form}}
+			</section>
+		</div>
+
+		{{> most-popular-search}}
+
+		{{> footer}}
+	</main>
+</body>
+
+</html>

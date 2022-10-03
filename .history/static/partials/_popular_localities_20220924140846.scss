@@ -1,0 +1,19 @@
+.PopularLocalities{
+	div{
+		// display: flex;
+		label,#localities{
+			font-size: 28px;
+			font-weight: 600;
+		}
+		label{
+			border-bottom: 3px solid #F59A00 ;
+		}
+		#localities{
+			border: none;
+			background: #fff;
+			font-weight: 800;
+			// font-size: 28px;
+			// line-height: 44px;
+		}
+	}
+}

@@ -1,0 +1,31 @@
+header{
+	nav{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px;
+		width: 100%;
+		color: #fff;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 25px;
+		.logo
+		{
+			background-color: #fff;
+			img{
+				width: 70%;
+			}
+		}
+		.navBtn{
+			display: flex;
+			justify-content: flex-end;
+			.FloatingBtn, .menu
+			{
+				background: rgba(201, 250, 209, 0.32);
+				border: 1px solid #049B5A;
+				color: #000;
+				border-radius: 50px;
+			}
+		}
+	}
+}

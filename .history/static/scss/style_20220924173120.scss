@@ -1,0 +1,133 @@
+@import "../partials/_header.scss";
+@import "../partials/_logo.scss";
+@import "../partials/_icons.scss";
+@import "../partials/_menu.scss";
+@import "../partials/_banner.scss";
+@import "../partials/_popular_localities.scss";
+@import "../partials/_localities_card.scss";
+@import "../partials/_headings.scss";
+@import "../partials/_featured_project.scss";
+@import "../partials/_recently_added_project.scss";
+@import "../partials/_featured_builder.scss";
+@import "../partials/_most_popular_search.scss";
+@import "../partials/_cta.scss";
+@import "../partials/_footer.scss";
+
+html{
+	scroll-behavior: smooth; 
+	} 
+* {
+	margin: 0; 
+	padding: 0;
+} 
+body { 
+	background: #fff;
+	color: #151E2D;
+	letter-spacing: 0.2px;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-family: 'Nunito';
+} 
+ul { 
+	padding: 0; 
+} 
+ul, ol {
+	list-style: none;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	// text-transform: uppercase;
+	color: #000;
+	}
+section {
+	margin-bottom: 110px;
+	padding: 0px 24px;
+	}
+
+.card{
+	.property-card{
+		// width: 30%;
+		transition: 0.3s;
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+		padding: 10px;
+		border-radius: 8px;
+		margin: 18px;
+		.property-img{
+			width: 100%;
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+			height: 200px;
+			object-fit: cover;
+		}
+		.property-details{
+			.property-details-heading{
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 20px;
+				h3{
+					font-weight: 600;
+					font-size: 26px;
+					color: #151E2D;
+					text-decoration: underline;
+					text-decoration-color: #151e2d8f;
+				}
+				.share-btn{
+					background: rgba(201, 250, 209, 0.32);
+					padding: 10px 12px;
+					border: 1px solid #049B5A;
+					border-radius: 50px;
+					img{
+						width: 10px;
+					}
+				}
+			}
+			ul{
+				.price, .typology, .location, .offer{
+					color: #151e2d7a;
+					font-size: 16px;
+					font-weight: 500;
+					padding: 2px;
+					margin-bottom: 5px;
+					span{
+						color: rgba(21, 30, 45, 0.8);
+						font-size: 18px;
+						padding: 0 0 0 10px;
+						font-weight: 800;
+					}
+				}
+				.price{
+					span{
+						color: #049B5A;
+					}
+				}
+				.offer{
+					display: flex;
+					p{
+						background: #F59A00;
+						border: 1px solid #F59A00;
+						box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.24);
+						border-radius: 4px;
+						font-size: 18px;
+						font-weight: 700;
+						color: #fff;
+						padding: 2px;
+					}
+					span{
+						background: rgba(245, 154, 0, 0.16);
+						padding: 2px;
+						width: 100%;
+						border-radius: 4px;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+
+

@@ -1,0 +1,20 @@
+.propery-card-listing{
+	display: flex;
+	align-items: flex-start;
+	.card-img{
+
+	}
+	.builder-logo-name
+	{
+		display: flex;
+		img{
+			background: #fff;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			padding: 5px 10px;
+		}
+		.builder-name{
+			padding: 10px;
+		}
+	}
+}

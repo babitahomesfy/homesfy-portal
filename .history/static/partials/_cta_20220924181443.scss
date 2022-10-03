@@ -1,0 +1,29 @@
+.cta{
+	background-image: url('/static/img/ctaImg.png');
+	color: #fff;
+	padding: 50px;
+	div{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		h3{
+			font-weight: 800;
+			font-size: 28px;
+		}
+		p{
+			font-weight: 500;
+			font-size: 20px;
+		}
+		.cta-form{
+			display: flex;
+			.form
+			{
+				// background: rgba(0, 0, 0, 0.4);
+				// border: 1px solid rgba(21, 30, 45, 0.5);
+				// border-radius: 10px;
+			}
+		}
+	}
+
+}

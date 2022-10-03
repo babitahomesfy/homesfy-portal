@@ -1,0 +1,59 @@
+.banner{
+	margin-bottom: 0px;
+}
+
+.main-content{
+	display: flex;
+	.form-section{
+		padding: 0 48px 0 0;
+		.common-form{
+			.notification{
+				.checkbox1{
+					width: 55px; height:55px;
+				}
+			}
+		}
+	}
+
+}
+
+.propery-card-listing{
+	.card-img{
+		.property-img-section{
+			.property-img{
+				width: 250px;
+			}
+		}
+	}
+	.card-content{
+		.property-apartment{
+			div{
+				span{
+					&:first-child{font-size: 20px;}
+					font-size: 16px;}
+			}	
+		}
+		.price-table{
+			div,p{
+				padding-right: 10px;
+				font-size: 12px;
+			}
+			.price{
+				img{width: 20px; height: 20px;}
+			}
+		}
+	}
+}
+
+.home-listing{
+	padding: 10px 20px;
+	background-color: #C9FAD1;
+	ul{
+		display: flex;
+		
+		li{
+			margin-right: 20px;
+		}
+	}
+}
+

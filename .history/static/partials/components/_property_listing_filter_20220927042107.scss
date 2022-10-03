@@ -1,0 +1,12 @@
+.property-listing-filter{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	select{
+		border: 1px solid rgba(21, 30, 45, 0.32);
+		border-radius: 8px;
+		background: #fff;
+		margin: 10px;
+		padding: 10px;
+	}
+}

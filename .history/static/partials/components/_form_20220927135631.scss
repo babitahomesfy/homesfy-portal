@@ -1,0 +1,64 @@
+.common-form{
+	border: 1px solid #F59A00;
+	border-radius: 4px;
+	padding: 20px; 
+	.form-heading {
+		font-weight: 700;
+		font-size: 22px;
+		text-align: center;
+	}
+	.form-heading, .name-cont, .contact-group, .notification, .home-lone
+	{
+		margin-bottom: 20px;
+	}
+	input,select, .submit-btn{
+		width: 100%;
+	}
+	.username, .phone-number, select, .submit-btn{
+		padding: 10px;
+		border-radius: 5px;
+		box-sizing: border-box;
+	}
+	.username, select{
+		color: #049B5A;
+		border: 1px solid #049B5A;
+	}
+	.contact-group{
+		display: flex;
+		.country-code{
+			width: 30%;
+			padding-right: 10px;
+			select{
+				background: #fff;
+				color: #000;
+			}
+		}
+		.m-number-cont{
+			width: 70%;
+			input{border: 1px solid #000;}
+		}
+
+	}
+	.submit-btn{
+		border: 1px solid #049B5A;	
+		border-radius: 50px;
+		background: #049B5A;
+		color: #fff;
+		font-size: 22px;
+		font-weight: 600;
+	}
+	.notification, .home-lone{
+		display: flex;
+		.checkbox1, .checkbox2{
+			width: 30px;
+			height: 30px;
+			:checked{
+				background: #049B5A;
+			color: #fff;
+			}
+		}
+		p{
+			padding-left: 20px;
+		}
+	}
+}

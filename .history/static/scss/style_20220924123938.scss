@@ -1,0 +1,47 @@
+@import "../partial/_header.scss";
+@import "../partial/_banner.scss";
+@import "../partial/_popular_localities.scss";
+@import "../partial/_featured_project.scss";
+@import "../partial/_recently_added_project.scss";
+@import "../partial/_featured_builder.scss";
+@import "../partial/_most_popular_search.scss";
+@import "../partial/_cta.scss";
+@import "../partial/_footer.scss";
+
+html{
+	scroll-behavior: smooth; 
+	} 
+* {
+	margin: 0; 
+	padding: 0;
+} 
+body { 
+	background: #fff;
+	color: #333;
+	letter-spacing: 0.2px;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-family: 'Nunito';
+} 
+ul { 
+	padding: 0; 
+} 
+ul, ol {
+	list-style: none;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	}
+section {
+	margin-bottom: 110px;
+	}
+
+
+
+
+

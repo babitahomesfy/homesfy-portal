@@ -1,0 +1,14 @@
+.header{
+	nav{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: absolute;
+		padding: 20px;
+		width: 100%;
+		color: #fff;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 25px;
+	}
+}

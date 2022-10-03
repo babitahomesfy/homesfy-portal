@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{{> default}}
+	<title>Document</title>
+	<link rel="stylesheet" href="/static/scss/details.css">
+
+</head>
+
+<body>
+	<main>
+		<header>
+			<nav>
+				{{> logo}}
+				{{> search-box}}
+				<div class="nav-btn col-4">
+					<ul>
+						{{> icons}}
+						{{> menu}}
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div class="detail-container">
+			<div class="col-8">
+				{{> home-listing}}
+
+				<section>
+					<div class="main-details">
+						<div class="apartment-details">
+							<div class="apartment">
+								<span>3BHK Apartment </span>
+								<span>in lodha world tower</span>
+							</div>
+							<div class="Skyscraper">
+								<img src="/static/img/details/Skyscraper.png" alt="">
+								<p>Skyscraper in Mumbai</p>
+							</div>
+							<div class="status-bath-detail">
+								<div class="status">
+									<p>STATUS</p>
+									<p>Ready to move</p>
+								</div>
+								<div class="bath">
+									<p>BATH</p>
+									<div>
+										<span>2</span>
+										<img src="/static/img/details/bathtub.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="price-mini-table">
+							<div>
+								<div class="emi">
+									<div>
+										<img src="" alt="rupee">
+										<div>
+											<p>2.5 crore</p>
+											<p>5400 / sqft</p>
+										</div>
+									</div>
+									<div>
+										<p>EMI</p>
+										<button></button>
+									</div>
+								</div>
+								<div>
+									<p>1800 sqft</p>
+									<div>
+										<p>CARPET AREA</p>
+										<p>1500 sqft</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="amenities">
+					<div>
+						<p>3 BHK Details</p>
+					</div>
+
+					<div>
+						<table>
+							<tr>
+								<th>TYPOLOGY</th>
+								<th>PRICE</th>
+								<th>AREA SIZE</th>
+								<th>CARPET AREA</th>
+							</tr>
+							<tr>
+								<td>3 BHK</td>
+								<td>2.5 Crore</td>
+								<td>1800 Sq.ft</td>
+								<td>1500 Sq.ft</td>
+							</tr>
+						</table>
+					</div>
+
+					<div>
+						<div>
+							<span>STATUS: </span>
+							<span>Ready To Move</span>
+						</div>
+						<div>
+							<span>RERA ID : </span>
+							<span>P02500004327</span>
+						</div>
+					</div>
+
+					<div>
+						<div>
+							<ul>
+								<li>lodha world tower</li>
+								<li>PROJECT AREA: <span> 2 acres</span></li>
+								<li>FLOOR: <span>12</span></li>
+								<li>FLATS: <span>68</span></li>
+							</ul>
+						</div>
+						<div>
+							<img src="" alt="">
+						</div>
+					</div>
+				</section>
+
+				<section class="location">
+				</section>
+
+				<section class="video-cta">
+				</section>
+
+				<section class="emi calculator">
+				</section>
+
+				<section class="enquiry-cta">
+				</section>
+
+				<section class="about-developer">
+				</section>
+			</div>
+
+			<section class="form-section col-4">
+				<div class="common-form">
+					<div class="form-heading">Connect with the right person below -</div>
+					<div class="form-content">
+						<div class="form-group">
+							<div class="name-cont">
+								<input class="form-control username" id="dropEnquiry_Name" placeholder="Enter Your Name"
+									title="Name cannot be digit or special character" pattern="[a-zA-Z ]{4,35}"
+									required="">
+								<label for="">Name</label>
+							</div>
+							<div class="contact-group">
+								<div class="country-code">
+									<select name="cars" id="dropEnquiry_CountryCode">
+										<option disabled="disabled" value="">Country Code</option>
+										<option data-countrycode="IN" value="+91" selected="">(+91)</option>
+										<option data-countrycode="AU" value="+61">(+61)</option>
+										<option data-countrycode="BH" value="+973">(+973)</option>
+									</select>
+									<label for="">Country</label>
+								</div>
+								<div class="m-number-cont">
+									<input class="form-control phone-number" id="dropEnquiry_Number"
+										placeholder="Phone Number" type="tel" pattern="[0-9]{10}$"
+										title="mobile number must be numeric &amp; of 10 digits." maxlength="10"
+										required="">
+								</div>
+							</div>
+							<div class="notification">
+								<div><input type="checkbox" class="checkbox1" id="checkbox1" name="" value=""></div>
+								<p>You will recieve notifications via SMS, Whatsapp, Email.
+									You can change your preference later.</p>
+							</div>
+							<div class="home-lone">
+								<div><input type="checkbox" class="checkbox2" id="checkbox2" name="" value=""></div>
+								<p>Yes, I need a home loan </p>
+							</div>
+							<button class="submit-btn">Submit</button>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<section class="featured-project card">
+			<div class="heading-content">
+				<h2 class="heading">Featured</h2>
+				<p class="sub-heading">Projects</p>
+			</div>
+
+			<div class="featured-projects-card-list">
+				<div class="col-4">
+					<div class="featured-projects-card property-card">
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div class="property-details">
+							<div class="property-details-heading">
+								<h3>lodha bellagion powai</h3>
+								<button class="share-btn"><img src="/static/img/share.png" alt=""></button>
+							</div>
+							<ul>
+								<li class="price">Price
+									<span>₹ 65 Lacs+</span>
+								</li>
+								<li class="typology">Typology
+									<span>1, 2 & 3 bed apartments</span>
+								</li>
+								<li class="location">Location
+									<span> Worli, Mumbai</span>
+								</li>
+								<li class="offer">
+									<p>Offer</p>
+									<span> Free Registration & Stamp Duty</span>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="featured-projects-card property-card">
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div class="property-details">
+							<div class="property-details-heading">
+								<h3>lodha bellagion powai</h3>
+								<button class="share-btn"><img src="/static/img/share.png" alt=""></button>
+							</div>
+							<ul>
+								<li class="price">Price
+									<span>₹ 65 Lacs+</span>
+								</li>
+								<li class="typology">Typology
+									<span>1, 2 & 3 bed apartments</span>
+								</li>
+								<li class="location">Location
+									<span> Worli, Mumbai</span>
+								</li>
+								<li class="offer">
+									<p>Offer</p>
+									<span> Free Registration & Stamp Duty</span>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-4">
+					<div class="featured-projects-card property-card">
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div class="property-details">
+							<div class="property-details-heading">
+								<h3>lodha bellagion powai</h3>
+								<button class="share-btn"><img src="/static/img/share.png" alt=""></button>
+							</div>
+							<ul>
+								<li class="price">Price
+									<span>₹ 65 Lacs+</span>
+								</li>
+								<li class="typology">Typology
+									<span>1, 2 & 3 bed apartments</span>
+								</li>
+								<li class="location">Location
+									<span> Worli, Mumbai</span>
+								</li>
+								<li class="offer">
+									<p>Offer</p>
+									<span> Free Registration & Stamp Duty</span>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="prev-next-btn">
+				<button class="prev"><img src="/static/img/prev.png" alt=""></button>
+				<button class="next"><img src="/static/img/next.png" alt=""></button>
+			</div>
+		</section>
+
+		<section class="recently-added-project card">
+			<div class="heading-content">
+				<h2 class="heading">Recently</h2>
+				<p class="sub-heading">Added Projects</p>
+			</div>
+			<div class="recently-added-project-card-list">
+				<div class="col-4">
+					<div class="recently-added-project-card property-card">
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div class="property-details">
+							<div class="property-details-heading">
+								<h3>lodha bellagion powai</h3>
+								<button class="share-btn"><img src="/static/img/share.png" alt=""></button>
+							</div>
+							<ul>
+								<li class="price">Price
+									<span>₹ 65 Lacs+</span>
+								</li>
+								<li class="typology">Typology
+									<span>1, 2 & 3 bed apartments</span>
+								</li>
+								<li class="location">Location
+									<span> Worli, Mumbai</span>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-4">
+					<div class="recently-added-project-card property-card">
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div class="property-details">
+							<div class="property-details-heading">
+								<h3>lodha bellagion powai</h3>
+								<button class="share-btn"><img src="/static/img/share.png" alt=""></button>
+							</div>
+							<ul>
+								<li class="price">Price
+									<span>₹ 65 Lacs+</span>
+								</li>
+								<li class="typology">Typology
+									<span>1, 2 & 3 bed apartments</span>
+								</li>
+								<li class="location">Location
+									<span> Worli, Mumbai</span>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="recently-added-project-card property-card">
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div class="property-details">
+							<div class="property-details-heading">
+								<h3>lodha bellagion powai</h3>
+								<button class="share-btn"><img src="/static/img/share.png" alt=""></button>
+							</div>
+							<ul>
+								<li class="price">Price
+									<span>₹ 65 Lacs+</span>
+								</li>
+								<li class="typology">Typology
+									<span>1, 2 & 3 bed apartments</span>
+								</li>
+								<li class="location">Location
+									<span> Worli, Mumbai</span>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="featured-builder card">
+			<div class="heading-content">
+				<h2 class="heading">Featured</h2>
+				<p class="sub-heading">Builder</p>
+			</div>
+			<h2> </h2>
+			<div class="featured-builders-card-list">
+				<div class="col-4">
+					<div class="featured-builders-card property-card">
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div class="property-details">
+							<div class="property-details-heading">
+								<img src="/static/img/home/lodhagroup-logo.png" alt="">
+								<button class="share-btn"><img src="/static/img/share.png" alt=""></button>
+							</div>
+							<h3>Lodha Group</h3>
+							<div class="read-more">
+								<p>Lodha Group is among the foremost real estate developers in Mumbai. Established in
+									1980,
+									the
+									developer etched its name in the history by recording one of the biggest land </p>
+								<button class="read-more-btn">Read more</button>
+							</div>
+							<ul>
+								<li>
+									<span class="item1">42 years</span>
+									<span class="item2"> Experience</span>
+								</li>
+								<li>
+									<span class="item1">40</span>
+									<span class="item2"> ongoing projects*</span>
+								</li>
+								<li>
+									<span class="item1">30</span>
+									<span class="item2"> upcoming projects*</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="featured-builders-card property-card">
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div class="property-details">
+							<div class="property-details-heading">
+								<img src="/static/img/lodhagroup-logo.png" alt="">
+								<button class="share-btn"><img src="/static/img/share.png" alt=""></button>
+							</div>
+							<h3>Lodha Group</h3>
+							<div class="read-more">
+								<p>Lodha Group is among the foremost real estate developers in Mumbai. Established in
+									1980,
+									the
+									developer etched its name in the history by recording one of the biggest land </p>
+								<button class="read-more-btn">Read more</button>
+							</div>
+							<ul>
+								<li>
+									<span class="item1">42 years</span>
+									<span class="item2"> Experience</span>
+								</li>
+								<li>
+									<span class="item1">40</span>
+									<span class="item2"> ongoing projects*</span>
+								</li>
+								<li>
+									<span class="item1">30</span>
+									<span class="item2"> upcoming projects*</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-4">
+					<div class="featured-builders-card property-card">
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div class="property-details">
+							<div class="property-details-heading">
+								<img src="/static/img/lodhagroup-logo.png" alt="">
+								<button class="share-btn"><img src="/static/img/share.png" alt=""></button>
+							</div>
+							<h3>Lodha Group</h3>
+							<div class="read-more">
+								<p>Lodha Group is among the foremost real estate developers in Mumbai. Established in
+									1980,
+									the
+									developer etched its name in the history by recording one of the biggest land </p>
+								<button class="read-more-btn">Read more</button>
+							</div>
+							<ul>
+								<li>
+									<span class="item1">42 years</span>
+									<span class="item2"> Experience</span>
+								</li>
+								<li>
+									<span class="item1">40</span>
+									<span class="item2"> ongoing projects*</span>
+								</li>
+								<li>
+									<span class="item1">30</span>
+									<span class="item2"> upcoming projects*</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="most-popular-search card">
+			<div class="heading-content">
+				<h2 class="heading">Most</h2>
+				<p class="sub-heading">Popular Searches</p>
+			</div>
+			<div class="popular-searches">
+				<div class="col-3">
+					<div class="cities">Cities</div>
+					<ul>
+						<li>Thane</li>
+						<li>Pune</li>
+						<li>Mumbai</li>
+						<li>Dombivali</li>
+						<li>Bangalore</li>
+						<li>Navi-Mumbai</li>
+					</ul>
+				</div>
+				<div class="col-3">
+					<div class="regions">Regions</div>
+					<ul>
+						<li>Harbour</li>
+						<li>South Mumbai</li>
+						<li>Central Mumbai</li>
+						<li>Western Mumbai</li>
+					</ul>
+				</div>
+				<div class="col-3">
+					<div class="locality">Localities</div>
+					<ul>
+						<li>Worli</li>
+						<li>Parel</li>
+						<li>Sewri</li>
+						<li>Wadala</li>
+						<li>Lowerparel</li>
+						<li>Kolshet Road</li>
+					</ul>
+				</div>
+				<div class="col-3">
+					<div class="developers">Developers</div>
+					<ul>
+						<li>Lodha</li>
+						<li>Dosti</li>
+						<li>Sobha</li>
+						<li>Godrej</li>
+						<li>Runwal</li>
+						<li>Prestige</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="links col-6">
+				<div class="terms-privacy">
+					<a href="" class="col-2">OVERVIEW</a>
+					<a href="" class="col-1">About Us </a>
+					<a href="" class="col-1">Contact Us</a>
+					<a href="" class="col-1">Terms</a>
+					<a href="" class="col-1">Privacy Policy</a>
+					<a href="" class="col-1">Blog</a>
+					<a href="" class="col-1">Loan</a>
+				</div>
+				<div class="developer">DEVELOPER</div>
+				<div class="developers-list">
+					<ul class="col-3">
+						<li>Kanakia</li>
+						<li>Purvankara</li>
+						<li>Lodha Group</li>
+						<li>Wadhwa Group</li>
+						<li>Sobha Limited</li>
+					</ul>
+					<ul class="col-3">
+						<li>Prestige Group</li>
+						<li>Godrej Properties</li>
+						<li>Shapoorji Pallonj</li>
+						<li>Kolte Patil Devlopers</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="social-icons col-6">
+				<div class="keep-in-touch-section">
+					<p class="keep-in-touch">KEEP IN TOUCH</p>
+					<div class="social-btn">
+						<button><img src="/static/img/facebook.png" alt="facebook"></button>
+						<button><img src="/static/img/facebook.png" alt="facebook"></button>
+						<button><img src="/static/img/facebook.png" alt="linkdin"></button>
+
+					</div>
+					<div class="company-name">
+						<p>Homesfy</p>
+						<p>Craft Financial Advisors Pvt. LTD</p>
+					</div>
+					<div class="mumbai-banglore-address">
+						<ul class="col-4">
+							<li>Mumbai</li>
+							<li>Building, 602, Dev Corpora, Eastern Express Hwy, near Cadbury Junction, Thane,
+								Maharashtra 400601</li>
+						</ul>
+						<ul class="col-4">
+							<li>Bangalore</li>
+							<li>24, Myworkarea, Benaka Complex, 2nd Cross, Sirur Park Road, Sheshadripuram,
+								Bangalore-
+								560020</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="company-logo">
+			<div class="homesfy-logo">
+				<img src="/static/img/homesfy-logo.png" alt="">
+			</div>
+			<div class="magnet-logo">
+				<img src="/static/img/homesfy-logo.png" alt="">
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>

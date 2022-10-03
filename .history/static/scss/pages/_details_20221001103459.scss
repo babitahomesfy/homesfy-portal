@@ -1,0 +1,24 @@
+.detail-container{
+	display: flex;
+	.project-specification{
+		.property-name{
+			display: flex;
+			justify-content: space-between;
+			p{
+				text-transform: uppercase;
+				color: #151E2D;
+				opacity: 0.72;
+				font-weight: 800;
+				font-size: 30px;
+			}
+		}
+		.apartment-details{
+			display: flex;
+			.apartment, .carpet-area, .builder-price, .rera{
+				p{
+						font-weight: 600;
+				}
+			}
+		}
+	}
+}

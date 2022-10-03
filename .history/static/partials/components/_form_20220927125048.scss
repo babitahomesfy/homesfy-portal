@@ -1,0 +1,36 @@
+.common-form{
+	border: 1px solid #F59A00;
+	border-radius: 4px;
+	padding: 20px; 
+	.form-heading {
+		font-weight: 700;
+		font-size: 22px;
+		text-align: center;
+	}
+	.form-heading, .name-cont, .contact-group
+	{
+		margin-bottom: 20px;
+	}
+	input,select{
+		width: 100%;
+	}
+	.username, .phone-number, select{
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.username{
+		color: #049B5A;
+		border: 1px solid #049B5A;
+	}
+	.contact-group{
+		display: flex;
+		.country-code{
+			width: 30%;
+			padding-right: 10px;
+		}
+		.m-number-cont{
+			width: 70%;
+			border: 1px solid #000;
+		}
+	}
+}

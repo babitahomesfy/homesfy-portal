@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{{> default}}
+	<title>Document</title>
+	<link rel="stylesheet" href="/static/scss/details.css">
+
+</head>
+
+<body>
+	<main>
+		<header>
+			<nav>
+				{{> logo}}
+				{{> search-box}}
+				<div class="nav-btn col-4">
+					<ul>
+						{{> icons}}
+						{{> menu}}
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<section class="banner">
+		</section>
+
+		{{> home-listing}}
+
+		<div class="detail-container">
+			<div class="col-8">
+
+				<section class="project-specification">
+					<div class="property-name">
+						<p>Lodha Palava Lakeshore Greens</p>
+						{{> share-btn}}
+					</div>
+					<div class="property-address">
+						<img src="/static/img/listing/location-icon.png" alt="">
+						<p>Dombivali, Mumbai</p>
+						<a href="">(show on map)</a>
+					</div>
+					<div class="apartment-details">
+						<div class="apartment col-3">
+							<p> 1 - 4 BHK</p>
+							<span>Apartment</span>
+						</div>
+						<div class="carpet-area col-3">
+							<p>444 - 759 sq ft</p>
+							<div>
+								<span>Carpet Area</span>
+								{{!-- <button></button> --}}
+								<img src="/static/img/details/info.png" alt="">
+							</div>
+						</div>
+						<div class="builder-price col-3">
+							<p>₹44.99 L - ₹4 Cr</p>
+							<div>
+								<span>Builder Price</span>
+								<button><img src="" alt=""></button>
+							</div>
+						</div>
+						<div class="rera col-3">
+							<p>51700046311</p>
+							<span>PROJECT RERA ID</span>
+						</div>
+					</div>
+				</section>
+
+				<section class="navbar">
+					<div>
+						<ul>
+							<li>Overview</li>
+							<li>Price & Floor Plan</li>
+							<li>Amenities</li>
+							<li>About Builder</li>
+							<li>Neighbourhood</li>
+							<li>Similar</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="project-highlight-section">
+					<div class="project-highlights">
+						<ul>
+							<li>
+								<p>Oct'26</p>
+								<p>Possession Start Date</p>
+							</li>
+							<li>
+								<p>Launch</p>
+								<p>Status</p>
+							</li>
+							<li>
+								<p>50 Acres</p>
+								<p>Status</p>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<p>605</p>
+								<p>Total Launched apartments</p>
+							</li>
+							<li>
+								<p>Aug'22</p>
+								<p>Launch Date</p>
+							</li>
+							<li>
+								<p>New</p>
+								<p>Availability</p>
+							</li>
+						</ul>
+						<div>
+							{{> offer}}
+						</div>
+					</div>
+				</section>
+
+				<section class="overview">
+					<div class="heading-content">
+						<h2 class="heading">Overview</h2>
+						<p class="sub-heading">Lodha Palava Lakeshore Greens</p>
+					</div>
+					<div>
+						<p>Lorem Ipsum is simply and typesetting ever since the 1500s, when an unknown printer took a
+							galley of type and scrambled it to make a type specimen book. It has survived not only five
+							centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+							passages, and more recently with desktop publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.</p>
+					</div>
+				</section>
+
+				<section class="price-floor-plan">
+					<div class="heading-content">
+						<h2 class="heading">Price</h2>
+						<p class="sub-heading">& floor plan</p>
+					</div>
+					<div class="tab-btn col-12">
+						<div>
+							<button>All <span>13 Sizes</span></button>
+						</div>
+						<div>
+							<button>1Rk <span>02 Sizes</span></button>
+						</div>
+						<div>
+							<button>1Bhk <span>05 Sizes</span></button>
+						</div>
+						<div>
+							<button>2Bhk <span>03 Sizes</span></button>
+						</div>
+						<div>
+							<button>3Bhk <span>02 Sizes</span></button>
+						</div>
+						<div>
+							<button>4Bhk <span></span></button>
+						</div>
+					</div>
+					{{> floor-plan}}
+					{{> floor-plan}}
+					{{> floor-plan}}
+					<div>
+						<button class="btn"> +10 </button>
+					</div>
+				</section>
+
+				<section class="amenities">
+					<div class="heading-content">
+						<h2 class="heading">Amenities</h2>
+						<p class="sub-heading">Lodha Palava Lakeshore Greens</p>
+					</div>
+					<div class="amenities-list">
+						<ul class="col-11">
+							{{> amenities-card}}	
+							{{> amenities-card}}	
+							{{> amenities-card}}	
+							{{> amenities-card}}	
+							{{> amenities-card}}	
+							{{> amenities-card}}	
+						</ul>
+						<div class="col-1">
+							<button class="btn"> +20 </button>
+						</div>
+					</div>
+				</section>
+
+				<section class="about-builder">
+					<div class="heading-content">
+						<h2 class="heading">About builder</h2>
+						<p class="sub-heading">Lodha Group</p>
+					</div>
+					<div>
+						<p>Developer Profile Lodha Group is among the foremost real estate developers in Mumbai.</p>
+						<button class="read-more-btn">View More</button>
+					</div>
+					<div>
+						<ul>
+							<li>
+								<span class="item1">42 years</span>
+								<span class="item2"> Experience</span>
+							</li>
+							<li>
+								<span class="item1">30</span>
+								<span class="item2"> Projects*</span>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="location">
+					<div class="heading-content">
+						<h2 class="heading">Location</h2>
+						<p class="sub-heading">Lodha Group</p>
+					</div>
+					<div>
+						<iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.055206579789!2d72.8749872149043!3d19.2799652869712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b175113a115d%3A0x4d039178acb679d1!2sLodha%20Mira%20Road%20Project!5e0!3m2!1sen!2sin!4v1647959864992!5m2!1sen!2sin"  height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
+					</div>
+				</section>
+
+				<section class="similar-projects">
+					<div class="heading-content">
+						<h2 class="heading">Similar</h2>
+						<p class="sub-heading">Projects</p>
+					</div>
+					<div>
+						<img class="property-img" src="/static/img/home/cardimage.png" alt="">
+						<div>
+							<div>
+								<img src="" alt="">
+								<p>Lodha Group</p>
+							</div>
+							<img src="" alt="">
+						</div>
+						<ul>
+							<li>
+								<p>Lodha Primo</p>
+								<div>
+									<img src="/static/img/listing/location-icon.png" alt="">
+									<p>Parel, Mumbai</p>
+								</div>
+							</li>
+							<li>
+								<div>
+									<span>Typology :</span>
+									<span>2BHK; 3 BHK</span>
+								</div>
+								<div>
+									<span>Price :</span>
+									<span>₹ 4.54 Cr+</span>
+								</div>
+							</li>
+							<li>
+								<span>Offer :</span>
+								<span>Exclusive 25:75 payment plan* </span>
+							</li>
+							<li>
+								<div class="region-experts">
+									<img src="/static/img/listing/bipin-more.png" alt="">
+									<div>
+										<p class="expert-name">Bipin More</p>
+										<p class="region-name">Thane's Region Experts</p>
+									</div>
+									<button class="view-phone">View Phone</button>
+									<button class="details">Details</button>
+								</div>
+							</li>
+							<li>
+								<div>
+									<button>View Phone</button>
+								</div>
+								<div>
+									<button class="share-btn"><img src="" alt=""></button>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+
+			<section class="form-section col-4">
+				{{> form}}
+			</section>
+
+		</div>
+
+		{{> most-popular-search}}
+
+		{{> footer}}
+	</main>
+</body>
+
+</html>

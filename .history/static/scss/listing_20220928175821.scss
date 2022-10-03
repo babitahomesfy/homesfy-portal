@@ -1,0 +1,64 @@
+@import "./components/logo";
+@import "./components/icons";
+@import "./components/menu";
+@import "./components/header";
+@import "./components/banner";
+@import "./components/headings";
+// @import "./components/card";
+// @import "./components/localities_card";
+// @import "./components/localities_dropdown";
+@import "./components/prev_next";
+// @import "./components/cta";
+@import "./components/footer";
+@import "./components/property_listing_card";
+@import "./components/property_listing_filter";
+// @import "./components/form";
+@import "./components/seacrh_box";
+// @import "./pages/home"; 
+@import "./pages/listing";  
+// @import "./pages/details"; 
+ 
+html{
+	scroll-behavior: smooth; 
+	} 
+* {
+	margin: 0; 
+	padding: 0;
+} 
+body { 
+	background: #fff;
+	color: #151E2D;
+	letter-spacing: 0.2px;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-family: 'Nunito';
+} 
+ul { 
+	padding: 0; 
+} 
+ul, ol {
+	list-style: none;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: 600;
+	color: #000;
+	}
+section {
+	margin-bottom: 110px;
+	padding: 0px 48px;
+	}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}

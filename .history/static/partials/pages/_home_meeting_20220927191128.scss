@@ -1,0 +1,91 @@
+.banner{
+	margin-bottom: 0px;
+}
+
+.main-content{
+	display: flex;
+	.form-section{
+		padding: 0 48px 0 0;
+		.common-form{
+			.notification{
+				.checkbox1{
+					width: 55px; height:55px;
+				}
+			}
+		}
+	}
+
+}
+
+.propery-card-listing{
+	.card-img{
+		.property-img-section{
+			.property-img{
+				width: 100%;
+			}
+		}
+	}
+	.card-content{
+		.property-apartment{
+			margin-bottom: 0px;
+			div{
+				span{
+					&:first-child{font-size: 16px;}
+					font-size: 14px;}
+			}	
+			.share-btn{
+				padding: 5px;
+			}
+		}
+		.price-table{
+			div,p{
+				padding-right: 10px;
+				font-size: 12px;
+			}
+			.price{
+				img{width: 20px; height: 20px;}
+			}
+		}
+		.location-details{
+			font-size: 14px;
+		}
+		.offer{
+			p{font-size:14px; padding: 2px;}
+			span{font-size: 12px;}
+		}
+		.possession{
+			font-size: 14px;
+		}
+		.read-more{
+			font-size: 12px;
+		}
+		.region-experts{
+			img{width: 40px; height:40px;}
+		}
+	}
+}
+
+.home-listing{
+	padding: 10px 20px;
+	background-color: #C9FAD1;
+	ul{
+		display: flex;
+		
+		li{
+			margin-right: 20px;
+		}
+	}
+}
+
+.property-listing-filter{
+	.commute-search-btn{
+		display: flex;
+		input{
+			background: #fff;
+			border: none;
+			padding: 5px;
+		}
+	}
+}
+
+

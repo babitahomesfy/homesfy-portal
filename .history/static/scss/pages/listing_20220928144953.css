@@ -1,0 +1,106 @@
+main section {
+  margin-bottom: 40px;
+}
+
+.banner {
+  margin-bottom: 0px;
+  height: 80vh;
+}
+
+.main-content {
+  display: flex;
+}
+.main-content .form-section {
+  padding: 0 48px 0 0;
+}
+
+.property-listing-filter-section {
+  margin-bottom: 20px;
+}
+
+.propery-card-listing {
+  margin-bottom: 48px;
+}
+.propery-card-listing .card-img .property-img-section .property-img {
+  width: 100%;
+}
+.propery-card-listing .card-content .property-apartment {
+  margin-bottom: 0px;
+}
+.propery-card-listing .card-content .property-apartment div span {
+  font-size: 14px;
+}
+.propery-card-listing .card-content .property-apartment div span:first-child {
+  font-size: 16px;
+}
+.propery-card-listing .card-content .property-apartment .share-btn {
+  padding: 5px 6px;
+}
+.propery-card-listing .card-content .price-table div, .propery-card-listing .card-content .price-table p {
+  padding-right: 10px;
+  font-size: 12px;
+}
+.propery-card-listing .card-content .price-table .price img {
+  width: 20px;
+  height: 20px;
+}
+.propery-card-listing .card-content .location-details {
+  font-size: 14px;
+}
+.propery-card-listing .card-content .offer p {
+  font-size: 14px;
+  padding: 2px;
+}
+.propery-card-listing .card-content .offer span {
+  font-size: 12px;
+}
+.propery-card-listing .card-content .possession {
+  font-size: 14px;
+}
+.propery-card-listing .card-content .read-more {
+  font-size: 12px;
+}
+.propery-card-listing .card-content .region-experts img {
+  width: 40px;
+  height: 40px;
+}
+
+.home-listing {
+  padding: 10px 20px;
+  background-color: #C9FAD1;
+}
+.home-listing ul {
+  display: flex;
+}
+.home-listing ul li {
+  margin-right: 20px;
+}
+.home-listing ul li button {
+  display: flex;
+  background: #C9FAD1;
+  border: none;
+}
+.home-listing ul li button img {
+  padding: 0 0 0 5px;
+}
+
+.property-listing-filter .commute-search-btn, .property-listing-filter .clear-filter-btn {
+  display: flex;
+  border: 1px solid rgba(21, 30, 45, 0.32);
+  border-radius: 8px;
+  padding: 5px;
+}
+.property-listing-filter .commute-search-btn input, .property-listing-filter .clear-filter-btn input {
+  background: #fff;
+  color: #151E2D;
+  opacity: 0.64;
+  border: none;
+  padding: 0px 5px;
+}
+.property-listing-filter .clear-filter-btn {
+  border: none;
+}
+.property-listing-filter .clear-filter-btn input {
+  color: #049B5A;
+  font-weight: 600;
+}/*# sourceMappingURL=listing_20220928144953.css.map */

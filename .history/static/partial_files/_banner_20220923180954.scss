@@ -1,0 +1,14 @@
+.Banner{
+	background-image: url(/static/img/banner1.png);
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	.BannerContent
+	{
+		position: absolute;
+		width: 251px;
+		height: 30px;
+		left: 456px;
+		top: 142px;
+	}
+}

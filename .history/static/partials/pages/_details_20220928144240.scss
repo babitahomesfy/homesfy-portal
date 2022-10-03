@@ -1,0 +1,12 @@
+.detail-container{
+	display: flex;
+	.main-details{
+		display: flex;
+		.apartment-details{
+			.apartment{
+				font-size: 24px;
+				font-weight: 600;
+			}
+		}
+	}
+}
