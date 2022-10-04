@@ -607,6 +607,9 @@ header nav .nav-btn ul li:last-child {
     font-size: 20px;
     line-height: 27px;
   }
+  .banner .banner-content .search-box div .location-btn {
+    display: none;
+  }
 }
 .heading-content {
   display: flex;

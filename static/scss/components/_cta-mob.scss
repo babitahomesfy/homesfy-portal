@@ -1,0 +1,44 @@
+$color: #151E2D;
+.cta-mob-section{
+    background: #FFFFFF;
+    background-image: url('/static/img/home/border.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+    padding: 20px;
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.2);
+    .cta-mob-heading{
+        margin-bottom: 20px;
+        h3{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            color: $color;
+        }
+        p{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: $color;
+        }
+       
+    }
+    form{
+        input{
+            padding: 12px;
+            border: 1px solid #151E2D;
+            border-radius: 4px;
+        }
+        ::placeholder{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $color;
+        }
+    }
+    .cta-mob-btn{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+}

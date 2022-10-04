@@ -66,6 +66,13 @@
 				font-size: 20px;
 				line-height: 27px;
 			}
+				.search-box{
+					div{
+						.location-btn{
+							display: none;
+						}
+					}
+				}
 		}
 	}
 }

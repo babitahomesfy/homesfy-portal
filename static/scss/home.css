@@ -607,6 +607,9 @@ header nav .nav-btn ul li:last-child {
     font-size: 20px;
     line-height: 27px;
   }
+  .banner .banner-content .search-box div .location-btn {
+    display: none;
+  }
 }
 .heading-content {
   display: flex;
@@ -816,6 +819,59 @@ header nav .nav-btn ul li:last-child {
   color: #fff;
 }
 
+.cta-mob-section {
+  background: #FFFFFF;
+  background-image: url("/static/img/home/border.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+  padding: 20px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.cta-mob-section .cta-mob-heading {
+  margin-bottom: 20px;
+}
+.cta-mob-section .cta-mob-heading h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #151E2D;
+}
+.cta-mob-section .cta-mob-heading p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #151E2D;
+}
+.cta-mob-section form input {
+  padding: 12px;
+  border: 1px solid #151E2D;
+  border-radius: 4px;
+}
+.cta-mob-section form ::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #151E2D;
+}
+.cta-mob-section form :-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #151E2D;
+}
+.cta-mob-section form ::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #151E2D;
+}
+.cta-mob-section .cta-mob-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
 .footer {
   display: flex;
   background: #151E2D;
@@ -872,18 +928,35 @@ header nav .nav-btn ul li:last-child {
 }
 
 .featured-projects-card-mob {
-  background: linear-gradient(180deg, #151E2D 0%, #151E2D 0%, rgba(0, 0, 0, 0) 38.14%), url("../../img/home/LocalityImg.png");
   border-radius: 8px;
 }
-.featured-projects-card-mob .property-img {
-  width: 100%;
-  position: relative;
+.featured-projects-card-mob .featured-projects-img-container {
+  background: linear-gradient(180deg, #151E2D 0%, #151E2D 0%, rgba(0, 0, 0, 0) 38.14%), url("/static/img/home/cardimage.png");
+  border-bottom: 1px solid rgba(21, 30, 45, 0.04);
+  border-radius: 0px 0px 8px 8px;
 }
-.featured-projects-card-mob .property-details {
-  position: absolute;
-  top: 0;
-  left: 0;
+.featured-projects-card-mob .featured-projects-img-container .property-details {
   color: #fff;
+}
+.featured-projects-card-mob .featured-projects-img-container .property-details li {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+.featured-projects-card-mob .featured-projects-img-container .property-details li span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
+.featured-projects-card-mob .featured-projects-img-container .property-details .name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+.featured-projects-card-mob .featured-projects-img-container .property-logo {
+  color: #fff;
+  display: flex;
 }
 
 .heading-content {
@@ -960,6 +1033,20 @@ header nav .nav-btn ul li:last-child {
   padding: 50px;
 }
 
+.cta-mob-section {
+  width: 100%;
+}
+.cta-mob-section form {
+  width: 100%;
+}
+.cta-mob-section form input {
+  width: 92%;
+}
+
+.featured-projects-card-mob {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .featured-projects-card-list,
 .recently-added-project-card-list,
@@ -971,9 +1058,24 @@ header nav .nav-btn ul li:last-child {
     margin-top: 25px;
   }
   .featured-projects-card-mob {
+    display: block;
     position: relative;
   }
   .featured-projects-card-mob .featured-projects-img-container {
     position: relative;
+  }
+  .featured-projects-card-mob .featured-projects-img-container .property-details, .featured-projects-card-mob .featured-projects-img-container .property-logo {
+    padding: 15px;
+  }
+  .featured-projects-card-mob .featured-projects-btn-container {
+    display: flex;
+    padding: 10px;
+  }
+  .featured-projects-card-mob .featured-projects-btn-container .share-btn {
+    padding: 5px 30px;
+    margin-left: 12px;
+  }
+  .recently-added-project-card-list-mob .featured-projects-card-mob .property-logo {
+    display: none;
   }
 }/*# sourceMappingURL=home.css.map */

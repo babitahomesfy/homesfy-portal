@@ -3,10 +3,15 @@
         <h3>Looking for the right property?</h3>
         <p>Consult with the Real estate experts -</p>
     </div>
-    <div class="name-cont">
-				<input class="form-control username" id="dropEnquiry_Name" placeholder="Enter Your Name"
-					title="Name cannot be digit or special character" pattern="[a-zA-Z ]{4,35}" required="">
-				<label for="">Name</label>
-			</div>
-            <button class="search-btn">View Phone</button>
+    <form class="common-form">
+        <div class="m-number-cont">
+            <input class="form-control phone-number" id="dropEnquiry_Number" placeholder="Phone Number" type="tel"
+                pattern="[0-9]{10}$" title="mobile number must be numeric &amp; of 10 digits." maxlength="10"
+                required="">
+        </div>
+    </form>
+    <div class="cta-mob-btn">
+        <button class="search-btn">Call Me Back</button>
+        <img src="/static/img/home/cta-img-mob.png" alt="">
+    </div>
 </div>

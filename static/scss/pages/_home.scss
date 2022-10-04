@@ -80,6 +80,21 @@
 	color: #fff;
 	padding: 50px;
 }
+
+// cta mobile section
+.cta-mob-section{
+	width: 100%;
+	form{
+		width: 100%;
+		input{
+			width: 92%;
+		}
+	}
+}
+.featured-projects-card-mob{
+	display: none;
+}
+
 @media(max-width:768px) {
 	.featured-projects-card-list,
 	.recently-added-project-card-list,
@@ -95,10 +110,29 @@
 		}
 	}
 	.featured-projects-card-mob{
+		display: block;
 		position: relative;
 		.featured-projects-img-container{
 			position: relative;
+			.property-details,.property-logo{
+				padding: 15px;
+			}
+		}
+		.featured-projects-btn-container{
+			display: flex;
+			padding: 10px;
+			.share-btn{
+				padding: 5px 30px;
+				margin-left: 12px;
+			}
 		}
 	}
-}
+	.recently-added-project-card-list-mob{
+		.featured-projects-card-mob{
+			.property-logo{
+				display: none;
+			}
+		}
+	}
+} 
 
