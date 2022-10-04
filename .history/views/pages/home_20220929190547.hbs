@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/static/scss/home.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@200;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<main>
+		<header>
+			<nav>
+				{{> logo}}
+				<div class="nav-btn">
+					<ul>
+						{{> icons}}
+						{{> menu}}
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<section class="banner">
+			{{> banner}}
+		</section>
+
+		<section class="popular-localities">
+			<div class="heading-content">
+				<h2 class="heading">Popular</h2>
+				{{> heading}}
+			</div>
+
+			<div class="localities-card-list">
+				<div class="col-3">
+					{{> localities_card}}
+				</div>
+
+				<div class="col-3">
+					{{> localities_card}}
+				</div>
+
+				<div class="col-3">
+					{{> localities_card}}
+				</div>
+
+				<div class="col-3">
+					{{> localities_card}}
+				</div>
+			</div>
+
+			<div class="view-all">
+				<a href="">View All</a>
+			</div>
+		</section>
+
+		<section class="featured-project card">
+			<div class="heading-content">
+				<h2 class="heading">Featured</h2>
+				<p class="sub-heading">Projects</p>
+			</div>
+
+			<div class="featured-projects-card-list">
+				<div class="col-4">
+					{{> featured-projects-card}}
+				</div>
+
+				<div class="col-4">
+					{{> featured-projects-card}}
+				</div>
+
+				<div class="col-4">
+					{{> featured-projects-card}}
+				</div>
+			</div>
+
+			<div class="prev-next-btn">
+				<button class="prev"><img src="/static/img/prev.png" alt=""></button>
+				<button class="next"><img src="/static/img/next.png" alt=""></button>
+			</div>
+		</section>
+
+		<section class="recently-added-project card">
+			<div class="heading-content">
+				<h2 class="heading">Recently</h2>
+				<p class="sub-heading">Added Projects</p>
+			</div>
+			<div class="recently-added-project-card-list">
+				<div class="col-4">
+					{{> recently-added-project-card}}
+				</div>
+
+
+				<div class="col-4">
+					{{> recently-added-project-card}}
+				</div>
+
+				<div class="col-4">
+					{{> recently-added-project-card}}
+				</div>
+			</div>
+		</section>
+
+		<section class="featured-builder card">
+			<div class="heading-content">
+				<h2 class="heading">Featured</h2>
+				<p class="sub-heading">Builder</p>
+			</div>
+			<h2> </h2>
+			<div class="featured-builders-card-list">
+				<div class="col-4">
+					{{> featured-builders-card}}
+				</div>
+
+				<div class="col-4">
+					{{> featured-builders-card}}
+				</div>
+
+
+				<div class="col-4">
+					{{> featured-builders-card}}
+				</div>
+			</div>
+		</section>
+
+		<section class="cta">
+			{{> cta-content}}
+		</section>
+
+		{{> most-popular-search}}
+
+		{{> footer}}
+
+	</main>
+</body>
+
+</html>

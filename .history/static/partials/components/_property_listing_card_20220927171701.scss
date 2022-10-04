@@ -1,0 +1,124 @@
+.propery-card-listing{
+	display: flex;
+	align-items: flex-start;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 20px;
+	.card-img{
+		.builder-logo-name{
+			display: flex;
+			img{
+				background: #fff;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				padding: 5px 10px;
+			}
+			.builder-name{
+				padding-left: 20px;
+			}
+		}
+	}
+
+	.card-content{
+		padding-left: 20px; 
+		.property-apartment, .location-details, .price-table, .offer, .possession, .read-more, .region-experts{
+			display: flex;
+			margin-bottom: 10px;
+		}
+		
+		.property-apartment{
+			justify-content: space-between;
+			div{
+				span{
+					font-size: 18px;
+					&:first-child{
+						font-size: 22px;
+						font-weight: 800;
+					}
+				}
+			}
+		}
+
+		.location-details{
+			align-items: center;
+			.location-address, .education{
+				display:flex;
+				padding: 5px;
+			}
+			.education{
+				border:1px solid rgba(245, 154, 0, 0.32);
+				padding: 5px;
+				border-radius: 8px;
+				margin-right: 10px;
+			}
+		}
+
+		.price-table{
+			justify-content: space-between;
+			align-items: center;
+			border-radius: 8px;
+			box-shadow: 0px 31px 157px rgba(0, 0, 0, 0.02), 0px 9.34559px 47.3309px rgba(0, 0, 0, 0.04), 0px 3.88168px 19.6588px rgba(0, 0, 0, 0.05), 0px 1.40393px 7.11022px rgba(0, 0, 0, 0.07);
+			padding: 5px;
+			.price{
+				display: flex;
+			}
+		}
+
+		.possession{
+			p{
+				border-right: 1px solid #000;
+				padding-right: 10px;
+			}
+			span{
+				padding-left: 10px;
+				color: #049B5A;
+				font-weight: 600;
+			}
+		}
+
+		.region-experts{
+			justify-content: space-between;
+			align-items: center;
+			button{
+				border-radius: 30px;
+				padding: 5px 15px;
+				margin: 10px;
+			}
+			.view-phone{
+				border: 1px solid #049B5A;
+				background: #fff;
+				color: #049B5A;
+			}
+			.details{
+				border: 1px solid #049B5A;
+				background: #049B5A;
+				color: #fff;
+			}
+			.expert-name{
+				font-size: 14px;
+				font-weight: 600;
+			}
+			.region-name{
+				font-size: 12px;
+			}
+		}
+
+
+	}
+	
+}
+
+.education-dropdown{
+	select{
+		border-radius: 8px;
+		padding: 8px;
+		background: #000;
+		color: #fff;
+	}
+}
+
+.read-more-btn{
+	border: none;
+    color: #049B5A;
+    background: #fff;
+}

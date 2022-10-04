@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{{> default}}
+	<title>Document</title>
+	<link rel="stylesheet" href="/static/scss/builder.css">
+
+</head>
+
+<body>
+	<main>
+		<header>
+			<nav>
+				{{> logo}}
+				{{> search-box}}
+				<div class="nav-btn col-md-4 col-xs-12">
+					<ul>
+						{{> icons}}
+						{{> menu}}
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<section class="banner">
+			<div class="builder-details col-md-3">
+				<div class="builder-logo col-md-8">
+					<img src="/static/img/builder/builder-logo.png" alt="">
+				</div>
+				{{> builders-projects-experince}}
+			</div>
+		</section>
+
+		{{> home-listing}}
+
+		<div class="builder-container">
+			<div class="col-md-8 col-xs-12">
+
+				<section class="overview">
+					<div class="heading-content">
+						<h2 class="heading">Lodha Group</h2>
+						<p class="sub-heading">Overview</p>
+					</div>
+					<div>
+						<p>Lorem Ipsum is simply and typesetting ever since the 1500s, when an unknown printer took a
+							galley of type and scrambled it to make a type specimen book. It has survived not only five
+							centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+							passages, and more recently with desktop publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.</p>
+					</div>
+				</section>
+
+				<section>
+					<div class="heading-content">
+						<h2 class="heading">Lodha</h2>
+						<p class="sub-heading">Projects in Top Cities</p>
+					</div>
+					<div class="top-cities col-md-12">
+						{{> top-cities-card}}
+						{{> top-cities-card}}
+						{{> top-cities-card}}
+					</div>
+					<div class="top-cities col-md-12">
+						{{> top-cities-card}}
+						{{> top-cities-card}}
+						{{> top-cities-card}}
+					</div>
+				</section>
+
+				<section class="top-developers-section">
+					<div class="heading-content">
+						<h2 class="heading">Top</h2>
+						<p class="sub-heading">Developers in India</p>
+					</div>
+					<div class="top-developers">
+						<div class="top-developers-details col-md-6">
+							<div class="developers-img">
+								<img src="/static/img/builder/builder-logo.png" alt="">
+							</div>
+							<div class="developers-experience">
+								<p>Lodha Group</p>
+								<p>Experience: 39 Years</p>
+							</div>
+							<ul class="builders-projects">
+								<li>
+									<span class="item1">30+</span>
+									<span class="item2"> projects*</span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="top-developers-details col-md-6">
+							<div class="developers-img">
+								<img src="/static/img/builder/builder-logo.png" alt="">
+							</div>
+							<div class="developers-experience">
+								<p>Lodha Group</p>
+								<p>Experience: 39 Years</p>
+							</div>
+							<ul class="builders-projects">
+								<li>
+									<span class="item1">30+</span>
+									<span class="item2"> projects*</span>
+								</li>
+							</ul>
+						</div>
+
+						
+					</div>
+					{{> prev-next}}
+				</section>
+
+			</div>
+
+			<section class="form-section col-md-4 col-xs-12">
+				{{> form}}
+			</section>
+
+		</div>
+
+		{{> most-popular-search}}
+
+		{{> footer}}
+	</main>
+</body>
+
+</html>

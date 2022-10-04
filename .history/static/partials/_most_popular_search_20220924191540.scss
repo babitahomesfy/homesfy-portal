@@ -1,0 +1,13 @@
+.most-popular-search{
+	.popular-searches{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		.tab{
+			width: 25%;
+		}
+		.cities, .regions, .locality, .developers{
+			border-bottom: 1px solid #0000007a;
+		}
+	}
+}

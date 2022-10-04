@@ -1,0 +1,21 @@
+.common-form{
+	border: 1px solid #F59A00;
+	border-radius: 4px;
+	padding: 20px; 
+	.form-heading {
+		font-weight: 700;
+		font-size: 22px;
+		text-align: center;
+	}
+	input{
+		color: #049B5A;
+	}
+	.username, .phone-number{
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.username{
+		width: 100%;
+		border: 1px solid #049B5A;
+	}
+}

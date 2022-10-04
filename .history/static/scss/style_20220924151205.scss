@@ -1,0 +1,100 @@
+@import "../partials/_header.scss";
+@import "../partials/_banner.scss";
+@import "../partials/_popular_localities.scss";
+@import "../partials/_featured_project.scss";
+@import "../partials/_recently_added_project.scss";
+@import "../partials/_featured_builder.scss";
+@import "../partials/_most_popular_search.scss";
+@import "../partials/_cta.scss";
+@import "../partials/_footer.scss";
+
+html{
+	scroll-behavior: smooth; 
+	} 
+* {
+	margin: 0; 
+	padding: 0;
+} 
+body { 
+	background: #fff;
+	color: #151E2D;
+	letter-spacing: 0.2px;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-family: 'Nunito';
+} 
+ul { 
+	padding: 0; 
+} 
+ul, ol {
+	list-style: none;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	// text-transform: uppercase;
+	color: #000;
+	}
+section {
+	margin-bottom: 110px;
+	padding: 0px 24px;
+	}
+
+.card{
+	.HeadingContent{
+		display: flex;
+		.Heading, .SubHeading{
+			font-size: 26px;
+		}
+		.Heading{
+			font-weight: 600;
+			border-bottom: 3px solid #F59A00 ;
+			color: #151e2d8f;
+		}
+		.SubHeading
+		{
+			font-weight: 800;
+			padding: 0 0 0 10px;
+		}
+	}
+	.PropertyCard{
+		width: 30%;
+		transition: 0.3s;
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+		padding: 10px;
+		border-radius: 8px;
+		margin: 18px;
+		img{
+			width: 100%;
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+			height: 200px;
+			object-fit: cover;
+		}
+		.PropertyDetails{
+			.PropertyDetailsHeading{
+				display: flex;
+				justify-content: space-between;
+				h3{
+
+				}
+				.ShareBtn{
+					background: rgba(201, 250, 209, 0.32);
+					padding: 10px 12px;
+					border: 1px solid #049B5A;
+					border-radius: 50px;
+					img{
+						width: 10px;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+
+

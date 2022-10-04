@@ -1,0 +1,135 @@
+.heading-content {
+  margin-bottom: 24px;
+}
+
+.property-card {
+  margin: 10px;
+}
+
+.prev-next-btn {
+  text-align: right;
+}
+
+header {
+  top: 0;
+  z-index: 99;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  font-size: 18px;
+}
+header nav .logo {
+  width: 20%;
+}
+header nav .nav-btn {
+  display: flex;
+  flex-basis: auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+header nav .nav-btn ul {
+  display: flex;
+}
+header nav .nav-btn ul li:first-child {
+  margin-right: 30px;
+}
+header nav .nav-btn ul li:last-child {
+  margin-right: 20px;
+}
+
+.banner {
+  background-image: url(/static/img/home/banner.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.popular-localities .localities-card {
+  margin: 10px;
+}
+.popular-localities .localities-card img {
+  width: 30%;
+}
+.popular-localities .localities-card .localities-card-details {
+  width: 70%;
+}
+.popular-localities .view-all {
+  text-align: right;
+}
+.popular-localities .view-all a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.featured-projects-card-list, .recently-added-project-card-list, .featured-builders-card-list {
+  display: flex;
+}
+
+.featured-projects-card .offer span {
+  line-height: 36px;
+}
+
+.featured-builders-card {
+  color: #151E2D;
+}
+.featured-builders-card h3 {
+  font-weight: 500;
+  font-size: 22px;
+}
+.featured-builders-card .read-more {
+  margin-bottom: 20px;
+}
+.featured-builders-card .read-more p {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.86;
+}
+.featured-builders-card .read-more .read-more-btn {
+  border: none;
+  color: #049B5A;
+  background: #fff;
+}
+.featured-builders-card ul {
+  display: flex;
+  justify-content: space-between;
+}
+.featured-builders-card ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featured-builders-card ul li .item1 {
+  color: #F59A00;
+  font-weight: 900;
+  font-size: 18px;
+}
+.featured-builders-card ul li .item2 {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+.cta {
+  background-image: url("/static/img/home/ctaImg.png");
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 50px;
+}
+
+.most-popular-search .popular-searches {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.most-popular-search .popular-searches .cities, .most-popular-search .popular-searches .regions, .most-popular-search .popular-searches .locality, .most-popular-search .popular-searches .developers {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4784313725);
+  font-weight: 800;
+  font-size: 18px;
+}/*# sourceMappingURL=home_20220928144935.css.map */

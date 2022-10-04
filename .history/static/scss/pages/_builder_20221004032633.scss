@@ -1,0 +1,19 @@
+.banner{
+	background-image: url('/static/img/builder/Banner.png');
+	height: 80vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	.builder-logo{
+		
+	}
+}
+
+.builder-container{
+	display: flex;
+	.top-cities{
+		display: flex;
+		justify-content: space-between;
+		margin: 0 0 10px 0;
+	}
+}

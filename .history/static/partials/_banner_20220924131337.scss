@@ -1,0 +1,45 @@
+.Banner{
+	background-image: url(/static/img/banner.png);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	.BannerContent
+	{
+		position: absolute;
+		top: 20%;
+		padding: 0px 200px;
+		z-index:1;
+		color: #151E2D;
+		p{
+			font-weight: 600;
+			font-size: 22px;
+			line-height: 30px;
+		}
+		h1{
+			font-weight: 900;
+			font-size: 40px;
+			line-height: 55px;
+		}
+		.SearchBox
+		{
+			display: flex;
+			justify-content: space-between;
+			border: 1px solid #000;
+			border-radius: 50px;
+			padding: 10px;
+			background-color: #fff;
+			input{
+				border: none;
+				width: 80%;
+			}
+			div{
+				.SearchBtn{
+					background-color: #049B5A;
+					border: 1px solid #049B5A;
+					border-radius: 50px ;
+					padding: 6px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+header{
+	nav{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: absolute;
+		padding: 20px;
+		width: 100%;
+		color: #fff;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 25px;
+		.logo
+		{
+			background-color: #fff;
+			img{
+				width: 70%;
+			}
+		}
+		.navBtn{
+			.FloatingBtn
+			{
+				position: absolute;
+				left: 0%;
+				right: 76.07%;
+				top: 0%;
+				bottom: 0%;
+				background: rgba(201, 250, 209, 0.32);
+				border: 1px solid #049B5A;
+			}
+		}
+	}
+}

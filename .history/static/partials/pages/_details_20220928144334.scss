@@ -1,0 +1,17 @@
+.detail-container{
+	display: flex;
+	.main-details{
+		display: flex;
+		.apartment-details{
+			.apartment{
+				span{
+					font-weight: 600;
+					font-size: 20px;
+					&:first-child{
+						font-size: 24px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.propery-card-listing{
+	display: flex;
+	align-items: flex-start;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 20px;
+	.card-img{
+		.builder-logo-name{
+			display: flex;
+			img{
+				background: #fff;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				padding: 5px 10px;
+			}
+			.builder-name{
+				padding-left: 20px;
+			}
+		}
+	}
+
+	.card-content{
+		padding: 20px;
+	}
+	
+}

@@ -1,0 +1,219 @@
+$content-color: #151E2D;
+$primary-color: #049B5A;
+
+.detail-container{
+	display: flex;
+	flex-direction: row;
+	.project-specification{
+		.property-name{
+			display: flex;
+			justify-content: space-between;
+			p{
+				text-transform: uppercase;
+				color: $content-color;
+				opacity: 0.72;
+				font-weight: 800;
+				font-size: 30px;
+			}
+		}
+		.property-address{
+			display: flex;
+			margin-bottom: 40px;
+			img, p, a{
+				padding: 0 20px 0 0;
+				font-weight: 600;
+			}
+			a{
+				color: $primary-color;
+			}
+		}
+		.apartment-details{
+			display: flex;
+			flex-direction: row;
+			.apartment, .carpet-area, .builder-price, .rera{
+				p{
+					font-weight: 600;
+				}
+				span{
+					font-weight: 600;
+					color: $content-color;
+					opacity: 0.64;
+				}
+			}
+			.carpet-area{
+				div{
+					display: flex;
+					align-items: center;
+				}
+			}
+			.builder-price{
+				.builder-price-dropdown-btn{
+					background: rgba(201, 250, 209, 0.32);
+					padding: 2px 6px;
+					border: 1px solid #049B5A;
+					border-radius: 50px;
+					img{
+						transform: rotate(90deg);
+						width: 5px;
+					}
+				}
+			}
+		}
+	}
+	.navbar{
+		margin-bottom: 40px;
+		ul{
+			display: flex;
+			justify-content: space-between;
+			li{
+				font-weight: 600;
+				color: $content-color;
+				opacity: 0.64;
+			}
+		}
+	}
+	.project-highlight-section{
+		.project-highlights{
+			ul{
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 40px;
+				li{
+					p{
+						font-weight: 600;
+						&:last-child{
+							color: $content-color;
+							opacity: 0.64;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.price-floor-plan{
+		.tab-btn{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 20px;
+			gap: 10px;
+			button{
+				padding: 15px;
+			}
+		}
+		.floor-plan{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-direction: row;
+			border: 1px solid #ccc;
+			border-radius: 8px;
+			padding: 10px;
+			margin-bottom: 20px;
+			.floor-img{
+				img{
+					border:1px solid #ccc;
+					border-radius: 4px;
+				}
+			}
+			.floor-price, .floor-area{
+				display: flex;
+				p{
+					font-weight: 600;
+				}
+			}
+			.floor-enquire-btn{
+				.enquire-btn{
+					border: 1px solid #049B5A;
+					border-radius: 50px;
+					background: #049B5A;
+					color: #fff;
+					padding: 10px;
+				}
+			}
+		}
+		div{
+			text-align: right;
+		}
+	}
+
+	.amenities{
+		.amenities-list{
+			display: flex;
+			align-items: center;
+			ul{
+				display: flex;
+				justify-content: space-between;
+				li{
+					background: #151e2d05;
+				border: 1px solid #151e2d1f;
+				border-radius: 4px;
+				text-align: center;
+				font-size: 14px;
+				font-weight: 600;
+				margin: 0 10px 0 0;
+				padding: 5px;
+				}
+			}
+			div{
+				text-align: right;
+			}
+		}
+	}
+
+	.location-section{
+		.location{
+			position: relative;
+			.location-iframe{
+				position: relative;
+			}
+			.location-details{
+				position: absolute; 
+				top: 8px;
+				left: 8px;
+				ul{
+					width: 320px;
+					padding: 10px;
+					background: #fff;
+					border-radius: 8px;
+					li{
+						background: #f8f8f8;
+						border-bottom: 1px solid rgba(21, 30, 45, 0.24);
+						display: flex;
+						align-items: center;
+						padding: 10px;
+						img,p{margin: 0 10px 0 0;}
+					}
+				}
+			}
+		}
+	}
+}
+
+.heading-content{
+	margin-bottom: 20px;
+}
+.btn{
+	background: #fff;
+	padding: 10px 5px;
+	border: 1px solid #049B5A;
+	border-radius: 50px;
+	color: #049B5A;
+}
+
+
+@media(max-width:768px){
+	.detail-container {
+		flex-direction: column-reverse;
+		.project-specification{
+			.apartment-details {
+				flex-direction: column;
+			}
+		}
+		.price-floor-plan{
+			.floor-plan{
+				flex-direction: column;
+			}
+		}
+	}
+}

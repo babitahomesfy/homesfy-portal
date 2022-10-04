@@ -1,0 +1,16 @@
+.heading-content{
+	display: flex;
+	margin-bottom: 20px;
+	
+	.heading{
+		font-weight: 600;
+		border-bottom: 3px solid #F59A00 ;
+		color: #151e2d8f;
+	}
+	.sub-heading
+	{
+		font-size: 26px;
+		font-weight: 800;
+		padding: 0 0 0 10px;
+	}
+}

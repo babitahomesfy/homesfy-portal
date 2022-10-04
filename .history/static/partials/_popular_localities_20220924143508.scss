@@ -1,0 +1,37 @@
+.PopularLocalities{
+	.PopularLocalities-Heading{
+		label,#localities{
+			font-size: 26px;
+		}
+		label{
+			font-weight: 600;
+			border-bottom: 3px solid #F59A00 ;
+			color: #151e2d8f;
+		}
+		#localities{
+			border: none;
+			background: #fff;
+			font-weight: 800;
+		}
+	}
+	.LocalitiesCard-List{
+		display: flex;
+		flex-wrap: wrap;
+		.LocalitiesCard{
+			display: flex;
+			padding: 10px;
+			border-radius: 8px;
+			box-shadow: 0px 31px 157px rgba(0, 0, 0, 0.02), 0px 9.34559px 47.3309px rgba(0, 0, 0, 0.04), 0px 3.88168px 19.6588px rgba(0, 0, 0, 0.05), 0px 1.40393px 7.11022px rgba(0, 0, 0, 0.07);
+			.LocalitiesCard-Details{
+				padding: 10px;
+				color: #151E2D;
+				font-size: 20px;
+				p{
+					:first-child{
+						opacity: 0.56;
+					}
+				}
+			}
+		}
+	}
+}

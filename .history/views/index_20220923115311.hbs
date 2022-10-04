@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/static/scss/style.css">
+</head>
+
+<body>
+	{{!-- <h1 class="abc">hello {{user}}</h1>
+	{{{placeholder}}} --}}
+	<main>
+		<header>
+			<nav>
+				<div>
+					<img src="" alt="">
+				</div>
+				<div>
+					<div class="FloatingBtn">btn</div>
+					<div>menu</div>
+				</div>
+			</nav>
+		</header>
+
+		<section class="Banner">
+			<div>
+				<span> Looking to buy property ?</span>
+				<h1> Find your dream home instead.</h1>
+				<input type="text" placeholder="Search by location, project name or builder">
+				<button> search</button>
+			</div>
+		</section>
+
+		<section class="PopularLocalities">
+			<div>
+				<h2>Popular:
+					<select name="localities" id="localities">
+						<option value="mumbai">Mumbai</option>
+						<option value="Pune">Pune</option>
+						<option value="Thane">Thane</option>
+					</select>
+				</h2>
+			</div>
+			<div>
+				<div class="LocalitiesCard">
+					<div>
+						<img src="" alt="">
+					</div>
+					<div>
+						<p>thane</p>
+						<p>upcoming projects</p>
+						<p>ongoing projecs</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="FeaturedProject">
+			<h2>Featured Projects</h2>
+			<div>
+				<div class="FeaturedProjectsCard">
+					<img src="" alt="">
+					<div>
+						<div>
+							<h3>lodha bellagion powai</h3>
+							<button>share</button>
+						</div>
+						<ul>
+							<li>price
+								<span>₹ 65 Lacs+</span>
+							</li>
+							<li>typology
+								<span>1, 2 & 3 bed apartments</span>
+							</li>
+							<li>location
+								<span> Worli, Mumbai</span>
+							</li>
+							<li>offer
+								<span> Free Registration & Stamp Duty</span>
+
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="RecentlyAddedProject">
+			<h2>Recently Added Projects</h2>
+			<div>
+				<div class="RecentlyAddedProjectsCard">
+					<img src="" alt="">
+					<div>
+						<div>
+							<h3>lodha bellagion powai</h3>
+							<button>share</button>
+						</div>
+						<ul>
+							<li>price
+								<span> ₹ 65 Lacs+</span>
+							</li>
+							<li>typology
+								<span>1, 2 & 3 bed apartments</span>
+							</li>
+							<li>location
+								<span> Worli, Mumbai</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="FeaturedBuilder">
+			<h2>Featured Builder</h2>
+			<div>
+				<div class="FeaturedBuildersCard">
+					<img src="" alt="">
+					<div>
+						<div>
+							<img src="" alt="">
+							<button>share</button>
+						</div>
+						<h3>lodha group</h3>
+						<p>Lodha Group is among the foremost real estate developers in Mumbai. Established in 1980, the
+							developer etched its name in the history by recording one of the biggest land </p>
+						<button>Read more</button>
+						<ul>
+							<li>
+								<span>42 years</span>
+								<span> Experience</span>
+							</li>
+							<li>
+								<span>40</span>
+								<span> ongoing projects*</span>
+							</li>
+							<li>
+								<span>30</span>
+								<span> upcoming projects*</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="Cta">
+			<h3>Looking for the right property?</h3>
+			<p>Consult with the Real estate experts -</p>
+			<form class="BannerForm ModalForm1" id="BannerForm">
+				<div class="number">
+					<input id="number" placeholder="Your Number...." name="phoneno" type="tel"
+						title="mobile number must be numeric &amp; of 10 digits." maxlength="10" required="">
+				</div>
+				<div class="submit">
+					<input id="submit" type="submit" value="Call Back">
+				</div>
+			</form>
+		</section>
+
+		<section class="MostPopularSearch">
+			<div>
+				<div class="tab1">
+					<div>Cities</div>
+					<ul>
+						<li>Thane</li>
+						<li>Pune</li>
+						<li>Mumbai</li>
+						<li>Dombivali</li>
+						<li>Bangalore</li>
+						<li>Navi-Mumbai</li>
+					</ul>
+				</div>
+				<div class="tab2">
+					<div>Regions</div>
+					<ul>
+						<li>Harbour</li>
+						<li>South Mumbai</li>
+						<li>Central Mumbai</li>
+						<li>Western Mumbai</li>
+					</ul>
+				</div>
+				<div class="tab3">
+					<div>Localities</div>
+					<ul>
+						<li>Worli</li>
+						<li>Parel</li>
+						<li>Sewri</li>
+						<li>Wadala</li>
+						<li>Lowerparel</li>
+						<li>Kolshet Road</li>
+					</ul>
+				</div>
+				<div class="tab4">
+					<div>Developers</div>
+					<ul>
+						<li>Lodha</li>
+						<li>Dosti</li>
+						<li>Sobha</li>
+						<li>Godrej</li>
+						<li>Runwal</li>
+						<li>Prestige</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="r1">
+				<div>
+					<a href="">OVERVIEW</a>
+					<a href="">About Us </a>
+					<a href="">Contact Us</a>
+					<a href="">Terms</a>
+					<a href="">Privacy Policy</a>
+					<a href="">Blog</a>
+					<a href="">Loan</a>
+				</div>
+				<div>
+					<p>Keep in touch</p>
+					<div>
+						<img src="" alt="facebook">
+						<img src="" alt="">
+						<img src="" alt="linkdin">
+					</div>
+				</div>
+			</div>
+			<div>
+				
+
+			</div>
+
+		</footer>
+	</main>
+</body>
+
+</html>

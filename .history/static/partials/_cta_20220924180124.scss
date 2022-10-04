@@ -1,0 +1,13 @@
+.cta{
+	background-image: url('/static/img/ctaImg.png');
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	h3{
+		font-weight: 800;
+		font-size: 28px;
+	}
+}

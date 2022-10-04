@@ -1,0 +1,21 @@
+.footer{
+	display: flex;
+	background: #151E2D;
+	color: #fff;
+	padding: 50px;
+	font-size: 14px;
+	.links{
+		.terms-privacy{
+			margin-bottom: 40px;
+			a{
+				text-decoration: none;
+				color: #fff;
+				padding-right: 10px;
+			}
+		}
+		.developer,a:first-child{
+			font-weight: 600;
+		}
+		
+	}
+}

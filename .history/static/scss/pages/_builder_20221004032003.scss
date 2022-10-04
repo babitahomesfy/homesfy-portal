@@ -1,0 +1,15 @@
+.banner{
+	background-image: url('/static/img/builder/Banner.png');
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.builder-container{
+	display: flex;
+	.top-cities{
+		display: flex;
+		justify-content: space-between;
+		margin: 0 0 10px 0;
+	}
+}

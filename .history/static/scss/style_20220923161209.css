@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+.abc {
+  color: blue;
+}
+
+.main .Banner {
+  background-image: url("/static/img/banner1.png");
+}/*# sourceMappingURL=style_20220923161209.css.map */

@@ -1,0 +1,69 @@
+@import "../partials/components/logo";
+@import "../partials/components/icons";
+@import "../partials/components/menu";
+@import "../partials/components/banner";
+@import "../partials/components/headings";
+@import "../partials/components/card";
+@import "../partials/components/localities_card";
+@import "../partials/components/localities_dropdown";
+@import "../partials/components/prev_next";
+@import "../partials/components/cta";
+@import "../partials/components/footer";
+@import "../partials/components/property_listing_card";
+@import "../partials/components/property_listing_filter";
+@import "../partials/components/form";
+@import "../partials/pages/locality";
+@import "../partials/pages/home_meeting";
+
+html{
+	scroll-behavior: smooth; 
+	} 
+* {
+	margin: 0; 
+	padding: 0;
+} 
+body { 
+	background: #fff;
+	color: #151E2D;
+	letter-spacing: 0.2px;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-family: 'Nunito';
+} 
+ul { 
+	padding: 0; 
+} 
+ul, ol {
+	list-style: none;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: 600;
+	color: #000;
+	}
+section {
+	margin-bottom: 110px;
+	padding: 0px 48px;
+	}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+
+
+

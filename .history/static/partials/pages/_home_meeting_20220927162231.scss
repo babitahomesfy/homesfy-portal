@@ -1,0 +1,22 @@
+.banner{
+	margin-bottom: 0px;
+}
+
+.main-content{
+	display: flex;
+	.form-section{
+		padding: 0 48px 0 0;
+	}
+}
+
+.home-listing{
+	padding: 10px 20px;
+	background-color: #C9FAD1;
+	ul{
+		display: flex;
+		
+		li{
+			margin-right: 20px;
+		}
+	}
+}

@@ -1,0 +1,154 @@
+main{
+	section{
+		margin-bottom: 40px;
+	}
+}
+
+header{
+	.nav-seacrh-box{
+		.search-box{
+			display: flex;
+			align-items: center;
+			border: 1px solid #049B5A;
+			background: rgba(201, 250, 209, 0.48);
+			padding: 5px;
+			border-radius: 50px;
+
+			input, .location-btn{
+				border: none;
+				background: #c9fad10a;
+			}
+			input{
+				padding: 10px;
+				border-radius: 50px;
+				&:focus { 
+					outline: none;
+				}
+			}
+			.location-btn{
+				background: none;
+				padding: 0 0 0 30px;
+				img{
+					width: 70%;
+				}
+			}
+		}
+	}
+
+}
+
+.banner{
+	margin-bottom: 0px;
+	height: 80vh;
+}
+
+.main-content{
+	display: flex;
+	.form-section{
+		padding: 0 48px 0 0;
+		.common-form{
+			.notification{
+				.checkbox1{
+					width: 55px; height:55px;
+				}
+			}
+		}
+	}
+
+}
+
+.property-listing-filter-section{
+	margin-bottom: 20px;
+}
+
+.propery-card-listing{
+	margin-bottom: 48px;
+	.card-img{
+		.property-img-section{
+			.property-img{
+				width: 100%;
+			}
+		}
+	}
+	.card-content{
+		.property-apartment{
+			margin-bottom: 0px;
+			div{
+				span{
+					&:first-child{font-size: 16px;}
+					font-size: 14px;}
+			}	
+			.share-btn{
+				padding: 5px 6px;
+			}
+		}
+		.price-table{
+			div,p{
+				padding-right: 10px;
+				font-size: 12px;
+			}
+			.price{
+				img{width: 20px; height: 20px;}
+			}
+		}
+		.location-details{
+			font-size: 14px;
+		}
+		.offer{
+			p{font-size:14px; padding: 2px;}
+			span{font-size: 12px;}
+		}
+		.possession{
+			font-size: 14px;
+		}
+		.read-more{
+			font-size: 12px;
+		}
+		.region-experts{
+			img{width: 40px; height:40px;}
+		}
+	}
+}
+
+.home-listing{
+	padding: 10px 20px;
+	background-color: #C9FAD1;
+	ul{
+		display: flex;
+		
+		li{
+			margin-right: 20px;
+			button{
+				display: flex;
+				background: #C9FAD1;
+				border: none;
+				img{
+					padding: 0 0 0 5px;
+				}
+			}
+		}
+	}
+}
+
+.property-listing-filter{
+	.commute-search-btn, .clear-filter-btn{
+		display: flex;
+		border: 1px solid rgba(21, 30, 45, 0.32);
+		border-radius: 8px;
+		padding: 5px;
+		input{
+			background: #fff;
+			color: #151E2D;
+			opacity: 0.64;
+			border: none;
+			padding: 0px 5px;
+		}
+	}
+	.clear-filter-btn{
+		border: none;
+		input{color:#049B5A; font-weight: 600;}
+	}
+}
+
+
+

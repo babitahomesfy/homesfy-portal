@@ -1,0 +1,17 @@
+.featured-projects-card-mob{
+    background: linear-gradient(180deg, #151E2D 0%, #151E2D 0%, rgba(0, 0, 0, 0) 38.14%),url('../../img/home/LocalityImg.png');
+    border-radius: 8px;
+    .property-img{
+        width: 100%;
+        position: relative;
+    }
+    .property-details{
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+    }
+}
+// .property-card-mob{
+//     background-image: url('static/img/home/LocalityImg.png');
+// }
